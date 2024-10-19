@@ -1,3 +1,4 @@
+--Create a database named "Cleaning"
 CREATE DATABASE Cleaning;
 --Exploring the data
 SELECT * FROM Uncleaned_DataScience_jobs;
