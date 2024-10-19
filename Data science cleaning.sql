@@ -62,7 +62,7 @@ FROM DataScience_Jobs
 GROUP BY Founded
 ORDER BY year_count DESC; -- 118 values are -1
 
---Replacing -1 with unknown
+--Replacing -1 with 0
 UPDATE DataScience_Jobs
 SET Founded = REPLACE(Founded, -1, 0)
 
